@@ -21,6 +21,7 @@
 		0097A090187A4CBE00F88695 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0097A072187A4CBE00F88695 /* UIKit.framework */; };
 		0097A098187A4CBE00F88695 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0097A096187A4CBE00F88695 /* InfoPlist.strings */; };
 		0097A09A187A4CBE00F88695 /* ActionSheetTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0097A099187A4CBE00F88695 /* ActionSheetTestTests.m */; };
+		0097A0A5187A603800F88695 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0097A0A4187A603800F88695 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0097A095187A4CBE00F88695 /* ActionSheetTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionSheetTestTests-Info.plist"; sourceTree = "<group>"; };
 		0097A097187A4CBE00F88695 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0097A099187A4CBE00F88695 /* ActionSheetTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetTestTests.m; sourceTree = "<group>"; };
+		0097A0A3187A603800F88695 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0097A0A4187A603800F88695 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				0097A084187A4CBE00F88695 /* ViewController.m */,
 				0097A086187A4CBE00F88695 /* Images.xcassets */,
 				0097A075187A4CBE00F88695 /* Supporting Files */,
+				0097A0A3187A603800F88695 /* SecondViewController.h */,
+				0097A0A4187A603800F88695 /* SecondViewController.m */,
 			);
 			path = ActionSheetTest;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0097A0A5187A603800F88695 /* SecondViewController.m in Sources */,
 				0097A085187A4CBE00F88695 /* ViewController.m in Sources */,
 				0097A07F187A4CBE00F88695 /* AppDelegate.m in Sources */,
 				0097A07B187A4CBE00F88695 /* main.m in Sources */,
